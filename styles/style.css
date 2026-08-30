@@ -28,6 +28,7 @@
   --line-height-120pc: 1.2;
   --line-height-140pc: 1.4;
 
+  --spacing-16: calc(16 / 16 * 1rem);
   --spacing-32: calc(32 / 16 * 1rem);
   --spacing-35: calc(35 / 16 * 1rem);
   --spacing-73: calc(73 / 16 * 1rem);
@@ -170,12 +171,40 @@ body {
   padding-block-end: var(--spacing-73);
 }
 
+.p-32 {
+  padding: var(--spacing-32);
+}
+
+.mbe-16 {
+  margin-block-end: var(--spacing-16);
+}
+
 .grid {
   display: grid;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-row-16 {
+  row-gap: var(--spacing-16);
+}
+
 .gap-row-32 {
   row-gap: var(--spacing-32);
+}
+
+.gap-col-16 {
+  column-gap: var(--spacing-16);
 }
 
 .rounded-full {
