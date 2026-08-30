@@ -27,6 +27,10 @@
 
   --line-height-120pc: 1.2;
   --line-height-140pc: 1.4;
+
+  --spacing-32: calc(32 / 16 * 1rem);
+  --spacing-35: calc(35 / 16 * 1rem);
+  --spacing-73: calc(73 / 16 * 1rem);
 }
 
 *,
@@ -146,6 +150,30 @@ body {
 
 .bg-dark-blue {
   background-color: var(--color-dark-blue);
+}
+
+.pis-35 {
+  padding-inline-start: var(--spacing-35);
+}
+
+.pie-35 {
+  padding-inline-end: var(--spacing-35);
+}
+
+.pbs-73 {
+  padding-block-start: var(--spacing-73);
+}
+
+.pbe-73 {
+  padding-block-end: var(--spacing-73);
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-row-32 {
+  row-gap: var(--spacing-32);
 }
 
 .visually-hidden {
