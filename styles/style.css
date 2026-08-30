@@ -31,6 +31,8 @@
   --spacing-32: calc(32 / 16 * 1rem);
   --spacing-35: calc(35 / 16 * 1rem);
   --spacing-73: calc(73 / 16 * 1rem);
+
+  --radius-full: 50%;
 }
 
 *,
@@ -176,6 +178,10 @@ body {
   row-gap: var(--spacing-32);
 }
 
+.rounded-full {
+  border-radius: var(--radius-full);
+}
+
 .visually-hidden {
   border: 0;
   padding: 0;
@@ -187,4 +193,9 @@ body {
   white-space: nowrap;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
+}
+
+img {
+  inline-size: 28px;
+  block-size: 28px;
 }
