@@ -16,6 +16,7 @@
   --color-grey-400: oklch(53.569% 0.02766 270.067);
   --color-grey-500: oklch(44.675% 0.03841 259.945);
   --color-dark-blue: oklch(24.627% 0.02755 259.983);
+  --color-black: oklch(18.22% 0.00002 271.152 / 0.23);
 
   --font-family-barlow: "Barlow Semi Condensed", sans-serif;
 
@@ -238,6 +239,7 @@ img {
 .testimonial {
   position: relative;
   z-index: -2;
+  box-shadow: 25px 40px 28px 0px var(--color-black);
 }
 
 .purple-ring::before {
