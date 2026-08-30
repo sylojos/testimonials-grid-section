@@ -34,6 +34,7 @@
   --spacing-35: calc(35 / 16 * 1rem);
   --spacing-73: calc(73 / 16 * 1rem);
 
+  --radius-8: calc(8 / 16 * 1rem);
   --radius-full: 50%;
 }
 
@@ -210,6 +211,10 @@ body {
 
 .rounded-full {
   border-radius: var(--radius-full);
+}
+
+.rounded-8 {
+  border-radius: var(--radius-8);
 }
 
 .visually-hidden {
