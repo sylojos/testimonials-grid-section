@@ -252,3 +252,18 @@ img {
   background-color: var(--color-purple-300);
   border-radius: var(--radius-full);
 }
+
+@media (min-width: 35em) and (max-width: 47.9375em) {
+  .quote::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inline-size: 104px;
+    block-size: 102px;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    inset-block-start: 0;
+    inset-inline-end: 62px;
+  }
+}
