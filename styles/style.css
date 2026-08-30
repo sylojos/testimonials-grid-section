@@ -388,6 +388,19 @@ img {
     column-gap: var(--spacing-32);
   }
 
+  .quote::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inline-size: 104px;
+    block-size: 102px;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    inset-block-start: 0;
+    inset-inline-end: 62px;
+  }
+
   body {
     min-height: 100vh;
     min-height: 100dvh;
